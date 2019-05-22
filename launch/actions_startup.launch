@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="ail_mav" name="mav_interface_node" type="mav_interface_node"/>
+  <node pkg="mav_state_machine" name="traj_plan_track_action_server" type="traj_plan_track_action_server" output="screen"/>
+  <node pkg="mav_state_machine" name="drone" type="drone.py" output="screen"/>
+</launch>

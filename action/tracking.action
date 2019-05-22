@@ -1,0 +1,10 @@
+#goal definition
+geometry_msgs/Vector3 pos_final
+float64 orientation_final
+---
+#result definition
+bool success
+---
+#feedback
+geometry_msgs/Vector3 pos_setpt
+
